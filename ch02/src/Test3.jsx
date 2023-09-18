@@ -75,7 +75,7 @@ const Test3 = () => {
                     취소
                 </button>
             </form>
-            {message && <p>{message}</p>} {/* 메시지가 있을 때만 출력 */}
+            {message && <p>{message}</p>}
         </div>
     );
 };
