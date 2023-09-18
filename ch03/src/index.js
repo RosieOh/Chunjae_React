@@ -4,11 +4,16 @@ import './index.css';
 import App from './App';
 import 'bootstrap/dist/css/bootstrap.css';
 import reportWebVitals from './reportWebVitals';
+import Test1 from './Test1';
+
+// yarn으로 설치 : D:\oth\react\ch03 yarm add react-bootstrap bootstrap
+// npm으로 설치 : D:\oth\react\ch03 npm install react-bootstrap bootstrap
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
+    <Test1 />
   </React.StrictMode>
 );
 
