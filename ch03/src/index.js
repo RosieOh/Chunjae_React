@@ -8,6 +8,7 @@ import Test2 from './Test2';
 import Test3 from './Test3';
 import Test4 from './Test4';
 import Test5 from './Test5';
+import Test6 from './Test6';
 
 
 // yarn으로 설치 : D:\oth\react\ch03 yarm add react-bootstrap bootstrap
@@ -20,6 +21,7 @@ root.render(
     <Test3 />
     <Test4 />
     <Test5 />
+    <Test6 />
   </React.StrictMode>
 );
 
