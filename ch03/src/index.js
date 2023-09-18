@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
-import 'bootstrap/dist/css/bootstrap.css';
+//import 'bootstrap/dist/css/bootstrap.css';
 import reportWebVitals from './reportWebVitals';
-import Test1 from './Test1';
+// import Test1 from './Test1';
 import Test2 from './Test2';
+import Test3 from './Test3';
 
 // yarn으로 설치 : D:\oth\react\ch03 yarm add react-bootstrap bootstrap
 // npm으로 설치 : D:\oth\react\ch03 npm install react-bootstrap bootstrap
@@ -13,9 +13,8 @@ import Test2 from './Test2';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
-    <Test1 />
     <Test2 />
+    <Test3 />
   </React.StrictMode>
 );
 
