@@ -1,5 +1,6 @@
 - var name = "오태훈";
 - var student = { no:1, name:"김이름", point:90}
+- var arr = ["봄", "여름", "가을", "겨울"]
 doctype html
 html(lang="en")
     head
@@ -9,3 +10,16 @@ html(lang="en")
         h2= name
         h3 #{student.no}
         h3 #{student.name}
+        ul 
+            for season in arr
+                li= season
+        select#sel
+            each season, i in arr
+                option(value=i) Season #{season}
+        div.controls
+            label(for="id")
+            input(type="text", placeholder="아이디 입력")#id
+        if name == "오태훈"
+            p Nice meet you
+        else
+            p Good-bye
