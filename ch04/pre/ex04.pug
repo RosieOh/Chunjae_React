@@ -1,25 +1,31 @@
-- var name = "오태훈";
-- var student = { no:1, name:"김이름", point:90}
+//pug : https://naltatis.github.io/jade-syntax-docs/
+//haml : https://haml.info/docs/yardoc/file.REFERENCE.html
+//Slim : https://rubydoc.info/gems/slim/frames
+- var name = "김기태"
+- var student = { no:1, name:"김천재", point:90 }
 - var arr = ["봄", "여름", "가을", "겨울"]
 doctype html
-html(lang="en")
+html
     head
         title jade(pug)
     body
-        h1 Hello Pug 
+        h1 Hello Pug4
         h2= name
         h3 #{student.no}
         h3 #{student.name}
-        ul 
+        ul
             for season in arr
                 li= season
         select#sel
             each season, i in arr
-                option(value=i) Season #{season}
+                option(value=i) #{season}
         div.controls
             label(for="id")
             input(type="text", placeholder="아이디 입력")#id
-        if name == "오태훈"
+        if name == "김기태"
             p Nice meet you
         else
             p Good-bye
+                
+
+            

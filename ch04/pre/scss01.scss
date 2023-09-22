@@ -1,9 +1,9 @@
 /* scss 기본 문법 */
 $color: #f00;
-$color2: deeppink;
+$color2 : deeppink;
 a {
     color:$color;
-    text-decoration: none;
-    &:hover { color: $color2; }
-    &:active { color: deepskyblue; }
+    text-decoration:none;
+    &:hover { color:$color2; }
+    &:active { color:deepskyblue; }
 }
